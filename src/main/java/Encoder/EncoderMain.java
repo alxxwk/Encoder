@@ -4,8 +4,7 @@ public class EncoderMain {
     public static void main(String[] args) {
         Encoder encoder = new Encoder();
         Decoder decoder = new Decoder();
-        String testString = "fhello world";
-
+        String testString = "#hell# world";
         System.out.println(encoder.Encode(testString));
         String encodedText = encoder.Encode(testString);
         System.out.println(decoder.Decode(encodedText));

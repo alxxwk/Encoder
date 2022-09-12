@@ -9,8 +9,16 @@ public class Decoder {
         plainText += offsetChar;
         int offsetNo = code.indexOf(offsetChar);
         for (int i = 1; i < upper.length(); i++) {
+            boolean isCode = false;
+            for (int j = 0; j < code.length(); j++) {
+                if (upper.charAt(i) == code.charAt(j)) {
+                    isCode = true;
+                }
+            }
             int encodedIndex = code.indexOf(upper.charAt(i)) + offsetNo;
-            if(upper.charAt(i) == ' '){
+            if (!isCode) {
+                plainText += upper.charAt(i);
+            } else if(upper.charAt(i) == ' '){
                 plainText += " ";
 
             } else if (encodedIndex > 43){
