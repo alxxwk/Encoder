@@ -1,7 +1,7 @@
 package Encoder;
 
 public class Decoder {
-    public String Decode(String EncodedText){
+    public String decode(String EncodedText){
         String code = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789()*+,-./";
         String upper = EncodedText.toUpperCase();
         char offsetChar = upper.charAt(0);

@@ -3,7 +3,7 @@ package Encoder;
 public class Encoder {
     //It is assumed the first letter of the input to be the offset character
     // all input will be converted to uppercase
-    public String Encode(String plainText) {
+    public String encode(String plainText) {
 
         String code = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789()*+,-./";
         String upper = plainText.toUpperCase();

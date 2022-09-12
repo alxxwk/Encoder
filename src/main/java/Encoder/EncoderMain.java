@@ -5,8 +5,8 @@ public class EncoderMain {
         Encoder encoder = new Encoder();
         Decoder decoder = new Decoder();
         String testString = "#hell# world";
-        System.out.println(encoder.Encode(testString));
-        String encodedText = encoder.Encode(testString);
+        System.out.println(encoder.encode(testString));
+        String encodedText = encoder.encode(testString);
         System.out.println(decoder.Decode(encodedText));
 //         for testing
 //        String code = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789()*+,-./";
