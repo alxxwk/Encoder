@@ -4,10 +4,10 @@ public class EncoderMain {
     public static void main(String[] args) {
         Encoder encoder = new Encoder();
         Decoder decoder = new Decoder();
-        String testString = "#hell# world";
+        String testString = "fhell# world";
         System.out.println(encoder.encode(testString));
         String encodedText = encoder.encode(testString);
-        System.out.println(decoder.Decode(encodedText));
+        System.out.println(decoder.decode(encodedText));
 //         for testing
 //        String code = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789()*+,-./";
 //        for (int i = 0; i < code.length(); i++) {
