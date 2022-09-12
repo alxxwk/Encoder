@@ -25,8 +25,6 @@ public class Encoder {
             int encodedIndex = code.indexOf(upper.charAt(i)) - offsetNo;
             if (!isCode) {
                 encodedText += upper.charAt(i);
-            } else if (upper.charAt(i) == ' ') {
-                encodedText += " ";
             } else if (encodedIndex < 0) {
                 //encodeindex -1 as revcode index starts from 0;
                 encodedText += code.charAt(44 + encodedIndex);

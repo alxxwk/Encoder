@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eed78a-b561-42ba-97ba-2aba0c4058c5" name="Changes" comment="Completed testing for encoder and decoder based on supplied offset key and offset code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encoder/Decoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoder/Decoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Encoder/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoder/Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encoder/EncoderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoder/EncoderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662969947625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed testing for encoder and decoder based on supplied offset key and offset code">
+      <created>1662970644341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970644341</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Completed testing for encoder and decoder based on supplied offset key and offset code">
+      <created>1662970767076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970767076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
